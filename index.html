@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Application</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- This is a Weather update portal -->
+    <div class="header">
+        <h2>Weather Application</h2>
+        <p>Enter the city name to get the weather update</p>
+    </div>
+    
+    <div class="card">
+        <div class="search">
+            <input type="text" class="search-bar" placeholder="Enter City Name">
+            <button class="search-btn">
+                <img src="img/search.png" alt="search">
+            </button>
+        </div>
+
+        <!-- error message -->
+        <div class="error-message">City Not Found</div>
+
+        <div class="weather">
+            <img src="img/rain.png" alt="cloudy" class="weather-icon">
+            <h3 class="weather-type">Cloudy</h3>
+            <h1 class="temp">25&deg;C</h1>
+            <h2 class="city">Magura</h2>
+            <div class="details">
+                <div class="col">
+                    <img src="img/humidity.png" alt="humid">
+                    <div>
+                        <p class="humidity">50%</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="img/wind.png" alt="wind">
+                    <div>
+                        <p class="wind">3.5 km/h</p>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>    
+            </div>
+        </div>
+
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
